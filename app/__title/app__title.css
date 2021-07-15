@@ -1,0 +1,10 @@
+.app__title {
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 51px;
+  color: #3E96F7;
+  margin-top: 0;
+  text-decoration: none;
+}

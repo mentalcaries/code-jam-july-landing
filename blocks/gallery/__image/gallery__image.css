@@ -1,0 +1,9 @@
+.gallery__image{
+  max-width: 100%;
+  margin: 0 auto;
+  transition: 0.25s linear;
+}
+
+.gallery__image:hover{
+  transform: scale(1.05);
+}

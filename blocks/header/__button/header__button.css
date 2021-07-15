@@ -1,0 +1,17 @@
+.header__button {
+  background-color: transparent;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  font-size: 40px;
+  line-height: 40px;
+  min-width: 382px;
+  min-height: 64px;
+  text-align: center;
+  color: #3E96F7;
+  transition: linear 0.25s;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  color: #fff;
+}

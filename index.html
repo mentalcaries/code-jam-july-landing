@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,41 +10,119 @@
 
 <body>
   <div class="page">
-  <div class="root">
-    <header class="header">
-      <navbar class="navbar">
-      <img src="./images/Elise Bouer.svg" alt="Elise Bouer Logo" class="header__logo">
-      <ul class="navbar__list">
-        <li><a class="navbar__list-item" href='#'>About</a></li>
-        <li><a class="navbar__list-item" href='#'>Projects</a></li>
-        <li><a class="navbar__list-item" href='#'>Resume</a></li>
-        <li><a class="navbar__list-item" href='#'>Contact</a></li>
-      </ul>
-    </navbar>
+    <div class="root">
+      <header class="header">
+        <navbar class="navbar">
+          <img src="./images/Elise Bouer.svg" alt="Elise Bouer Logo" class="header__logo">
+          <ul class="navbar__list">
+            <li><a class="navbar__list-item" href='#'>About</a></li>
+            <li><a class="navbar__list-item" href='#'>Projects</a></li>
+            <li><a class="navbar__list-item" href='#'>Resume</a></li>
+            <li><a class="navbar__list-item" href='#'>Contact</a></li>
+          </ul>
+        </navbar>
 
-      <section class="header__content">
-        <div class="header__text">
-      <h1 class="header__title">Freelance Developer</h1>
-       <p class="header__intro">Hi, I'm <span class="header__accent">Elise</span>.</p>
-       <p class="header__intro">I love building <span class="header__accent">apps</span> and helping others learn tech</p>
-      </div>
-       <img src="./images/Headshot image.png" alt="Headshot photo of Elise" class="header__photo">
-      </section>
-    </header>
+        <section class="header__content">
+          <div class="header__text">
+            <h1 class="header__title">Freelance Developer</h1>
+            <p class="header__intro">Hi, I'm <span class="header__accent">Elise</span>.</p>
+            <p class="header__intro">I love building <span class="header__accent">apps</span> and helping others learn
+              tech</p>
+            <button class="header__button">Want to hire me?</button>
+          </div>
+          <img src="./images/Headshot image.png" alt="Headshot photo of Elise" class="header__photo">
+        </section>
+      </header>
 
-    <main>
-      <section class="gallery">
-        <h2 class="gallery__title">Fun facts about me</h2>
-      
-      </section>
+      <main>
+        <section class="facts">
+          <div class="facts__content">
+            <h2 class="facts__title">Fun facts about me</h2>
+          </div>
+        </section>
 
-    </main>
+        <section class="work">
+          <h2 class="work__title">What I'm working on</h2>
+          <article class="app">
+            <a href="#" class="app__figure animate" target="_blank">
+              <img src="./images/App.jpeg" alt="" class="app__image">
+              <p class="app__caption">Demo Frontend</p>
+            </a>
+            <div class="app__text">
+              <a href="#" class="app__title"><h3 class="animate">Recipe Saver App</h3></a>
+              <p class="app__subtitle">React | JavaScript</p>
+              <p class="app__description">Application that allows the user to create custom recipes via a form, and
+                displays all of the recipes in condensed form within a sidebar list.</p>
+              <p class="app__description">When a recipe list item is clicked, the full recipe will be displayed on the
+                main part of the page.</p>
+            </div>
+          </article>
+        </section>
 
-    <footer class='footer'>
+        <section class="resume">
+          <h2 class="resume__title">Experience & Education</h2>
+          <img src="./images/resume.jpg" alt="" class="resume__image">
 
-    </footer>
+          <div class="resume__items">
+          <h3 class="resume__text">Freelance Web Developer</h3>
+          <p class="resume__text">2019 - Present</p>
+          <ul>
+            <li>Develop apps for socially-conscious businesses</li>
+            <li>Mentor new developers</li>
+            <li>Organize tech events & meetups</li>
+          </ul>
+
+          <h3 class="resume__text">Meals in Space, Founder</h3>
+          <p class="resume__text">2015 - 2019</p>
+          <ul>
+            <li>Designed app to let ISS crew save favorite recipes</li>
+            <li>Sold to Boeing for 3.5M for their interstellar restaurant project</li>
+          </ul>
+
+          <h3 class="resume__text">Full Stack Developer, Boeing</h3>
+            <p class="resume__text">2010 - 2015</p>
+            <ul>
+              <li>Worked on meaningless projects while my collegues coded for the International Space Station </li>
+            </ul>
+            
+          <h3 class="resume__text">Practicum by Yandex, student</h3>
+            <p class="resume__text">Graduated 2010</p>
+            <ul>
+              <li>Studied front and back end technologies</li>
+              <li>Designed the "Around the U.S" project brief</li>
+              <li>Co-created the Code Jams with Luke S</li>
+              <li>Received more accolades than can be listed</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="gallery">
+          <img src="./images/gallery1.jpg" alt="Checking my app" class="gallery__image">
+          <img src="./images/gallery2.jpg" alt="Chilling with a ferret on the sofa" class="gallery__image">
+          <img src="./images/gallery3.jpg" alt="Teamwork makes the dreamwork" class="gallery__image">
+          <img src="./images/gallery4.jpg" alt="I like Tetris" class="gallery__image">
+        </section>
+
+        <section class="contact">
+          <h2 class="contact__title">Where to find me</h2>
+          <div class="contact__icons">
+            <a href="https://github.com/" class="contact__link" target="_blank"><img src="./images/github.png" alt="Github" class="contact__icon"></a>
+
+            <a href="https://www.linked.com/elise" class="contact__link" target="_blank"><img src="./images/linkedin.png" alt="linkedin" class="contact__icon"></a>
+
+            <a href="mailto:email@example.com?subject=Someone saw your awesome website!" class="contact__link"><img src="./images/mail.png" alt="" class="contact__icon"></a>
+            
+          </div>
+          <button class="contact__button">Download Resume</button>
+        </section>
+
+      </main>
+
+      <footer class="footer">
+        <p class="footer__text">&copy; 2021 Elise Bouer</p>
+      </footer>
+    </div>
   </div>
-</div>
   <script src="script.js"></script>
 </body>
 

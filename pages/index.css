@@ -3,6 +3,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/root/root.css);
 
+/* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__content/header__content.css);
@@ -11,7 +12,52 @@
 @import url(../blocks/header/__intro/header__intro.css);
 @import url(../blocks/header/__accent/header__accent.css);
 @import url(../blocks/header/__photo/header__photo.css);
+@import url(../blocks/header/__button/header__button.css);
 
+/* Navigation */
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__list/navbar__list.css);
-@import url(../blocks/navbar/__list-item/navbar__list-item.css)
+@import url(../blocks/navbar/__list-item/navbar__list-item.css);
+
+/* Facts */
+@import url(../blocks/facts/facts.css);
+@import url(../blocks/facts/__content/facts__content.css);
+@import url(../blocks/facts/__title/facts__title.css);
+
+/* Work */
+@import url(../blocks/work/work.css);
+@import url(../blocks/work/__title/work__title.css);
+
+/* App Card */
+@import url(../app/app.css);
+@import url(../app/__figure/app__figure.css);
+@import url(../app/__image/app__image.css);
+@import url(../app/__caption/app__caption.css);
+@import url(../app/__title/app__title.css);
+@import url(../app/__subtitle/app__subtitle.css);
+@import url(../app/__description/app__description.css);
+@import url(../app/__text/app__text.css);
+
+/* Experience */
+@import url(../blocks/resume/resume.css);
+@import url(../blocks/resume/__title/resume__title.css);
+@import url(../blocks/resume/__image/resume__image.css);
+@import url(../blocks/resume/__items/resume__items.css);
+
+/* Gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
+/* Contact */
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__icons/contact__icons.css);
+@import url(../blocks/contact/__button/contact__button.css);
+@import url(../blocks/contact/__link/contact__link.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+
+/* Animate Hover */
+@import url(../blocks/animate/animate.css);

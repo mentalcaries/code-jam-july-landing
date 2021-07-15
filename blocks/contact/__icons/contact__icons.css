@@ -1,0 +1,8 @@
+.contact__icons{
+  max-width: 518px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
