@@ -16,6 +16,7 @@
 
 /* Navigation */
 @import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__mobile/navbar__mobile.css);
 @import url(../blocks/navbar/__list/navbar__list.css);
 @import url(../blocks/navbar/__list-item/navbar__list-item.css);
 @import url(../blocks/navbar/__wrapper/navbar__wrapper.css);

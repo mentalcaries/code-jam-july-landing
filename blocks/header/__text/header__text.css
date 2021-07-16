@@ -1,7 +1,11 @@
 .header__text{
-max-width: 555px;
-margin: 0 auto;
-
-
-
+  max-width: 555px;
+  margin: 0 auto;
 }
+
+/* @media screen and (max-width: 1200px) {
+  .header__text {
+    max-width: 800px;
+    text-align: center;
+  }
+} */
