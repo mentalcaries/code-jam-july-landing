@@ -1,0 +1,14 @@
+.app{
+ display: flex;
+ justify-content: space-between;
+}
+
+@media screen and (max-width:860px) {
+  .app{
+    flex-direction: column;
+    gap: 16px
+    
+    
+  }
+  
+}

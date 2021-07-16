@@ -7,3 +7,11 @@
 .gallery__image:hover{
   transform: scale(1.05);
 }
+
+@media screen and (max-width:480px) {
+  .gallery__image{
+   max-width: 300px;
+   
+  }
+  
+}

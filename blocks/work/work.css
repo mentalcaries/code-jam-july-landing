@@ -5,3 +5,11 @@
   margin: 0 auto;
 
 }
+
+@media screen and (max-width:860px) {
+  .work{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+}

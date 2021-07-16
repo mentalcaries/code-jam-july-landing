@@ -3,8 +3,22 @@
   font-size: 48px;
   line-height: 51px;
   color: #1A2238;
-  padding-top: 100px;
   margin:0 auto;
   font-family: 'IBM Plex Sans', 'Arial', sans-serif;
   letter-spacing: -1px;
+}
+@media screen and (max-width:650px) {
+  .resume__title{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  
+}
+@media screen and (max-width:400px) {
+  .resume__title{
+    font-size: 36px;
+    line-height: 36px;
+    
+  }
+  
 }

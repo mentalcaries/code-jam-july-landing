@@ -4,7 +4,24 @@
   max-width: 1130px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 32px;
+  justify-content: center;
+  
+}
+
+@media screen and (max-width:860px) {
+  .gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 24px
+  }
+  
+}
+@media screen and (max-width:768px) {
+  .gallery{
+   display: flex;
+   flex-direction: column;
+  }
   
 }
