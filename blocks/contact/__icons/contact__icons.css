@@ -6,3 +6,11 @@
   align-items: center;
   
 }
+
+@media screen and (max-width:650px) {
+  .contact__icons{
+    max-width: 65%;
+    margin: 50px auto;
+  }
+  
+}

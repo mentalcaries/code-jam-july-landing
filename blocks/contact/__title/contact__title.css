@@ -8,3 +8,20 @@
   font-family: 'IBM Plex Sans', 'Arial', sans-serif;
   letter-spacing: -1px;
 }
+@media screen and (max-width:650px) {
+  .contact__title{
+    font-size: 40px;
+    line-height: 45px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+}
+@media screen and (max-width:400px) {
+  .contact__title{
+    font-size: 36px;
+    line-height: 36px;
+    
+  }
+  
+}

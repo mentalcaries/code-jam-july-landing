@@ -1,4 +1,22 @@
 .contact__icon{
-  max-width: 80px;
+  max-width: 80px;  
+}
+
+@media screen and (max-width:650px) {
+  .contact__icon{
+    max-width: 60px;
+  }
+  
+}
+@media screen and (max-width:500px) {
+  .contact__icon{
+    max-width: 45px;
+  }
+  
+}
+@media screen and (max-width:400px) {
+  .contact__icon{
+    max-width: 36px;
+  }
   
 }

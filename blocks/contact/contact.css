@@ -5,3 +5,18 @@
   padding-left: 40px;
   padding-right: 40px;
 }
+
+@media screen and (max-width:860px) {
+  .contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+}
+@media screen and (max-width:480px) {
+  .contact{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+}

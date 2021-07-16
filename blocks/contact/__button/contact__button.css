@@ -22,3 +22,12 @@
   color: #081E41;
   background-color: #B6F7AB ;
 }
+
+@media screen and (max-width:650px) {
+  .contact__button{
+    min-width: 240px;
+    min-height: 44px;
+    font-size: 14px;
+  }
+  
+}

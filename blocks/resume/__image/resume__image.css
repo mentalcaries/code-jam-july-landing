@@ -1,5 +1,5 @@
 .resume__image{
   display: block;
   margin: 50px auto;
-  
+  max-width: 100%;
 }

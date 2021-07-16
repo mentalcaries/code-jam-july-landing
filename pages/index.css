@@ -33,14 +33,14 @@
 @import url(../blocks/work/__title/work__title.css);
 
 /* App Card */
-@import url(../app/app.css);
-@import url(../app/__figure/app__figure.css);
-@import url(../app/__image/app__image.css);
-@import url(../app/__caption/app__caption.css);
-@import url(../app/__title/app__title.css);
-@import url(../app/__subtitle/app__subtitle.css);
-@import url(../app/__description/app__description.css);
-@import url(../app/__text/app__text.css);
+@import url(../blocks/app/app.css);
+@import url(../blocks/app/__figure/app__figure.css);
+@import url(../blocks/app/__image/app__image.css);
+@import url(../blocks/app/__caption/app__caption.css);
+@import url(../blocks/app/__title/app__title.css);
+@import url(../blocks/app/__subtitle/app__subtitle.css);
+@import url(../blocks/app/__description/app__description.css);
+@import url(../blocks/app/__text/app__text.css);
 
 /* Experience */
 @import url(../blocks/resume/resume.css);
