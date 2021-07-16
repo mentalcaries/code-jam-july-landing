@@ -1,7 +1,16 @@
 .header__photo{
-  background-color: #fff;
+  /* background-color: #fff;
   max-width: 554px;
-  height: 100%;
-  border: 15px solid white;
+  height: 100%; */
+  width: 100%;
+  max-width: 40%;
+  height: auto;
+  background-color: #fff;
+}
 
+@media screen and (max-width: 1000px) {
+  .header__photo {
+    margin: 40px 0;
+    max-width: 60%;
+  }
 }
