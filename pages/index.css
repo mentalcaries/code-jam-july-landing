@@ -5,7 +5,6 @@
 
 /* Header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__text/header__text.css);
@@ -19,6 +18,7 @@
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__list/navbar__list.css);
 @import url(../blocks/navbar/__list-item/navbar__list-item.css);
+@import url(../blocks/navbar/__wrapper/navbar__wrapper.css);
 
 /* Facts */
 @import url(../blocks/facts/facts.css);
