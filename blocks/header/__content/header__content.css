@@ -6,4 +6,13 @@
   max-height: 595px;
   width: 100%;
   max-width: 1360px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__content {
+    flex-direction: column;
+    padding-top: 160px;
+    max-height: none;
+  }
 }
