@@ -25,6 +25,9 @@
 @import url(../blocks/facts/__wrapper/facts__wrapper.css);
 @import url(../blocks/facts/__content/facts__content.css);
 @import url(../blocks/facts/__title/facts__title.css);
+@import url(../blocks/facts/__section/facts__section.css);
+@import url(../blocks/facts/__cards/facts__cards.css);
+
 
 /* Work */
 @import url(../blocks/work/work.css);
@@ -66,3 +69,7 @@
 
 /* Animate Hover */
 @import url(../blocks/animate/animate.css);
+
+/* Flickity */
+@import url(../external/flickity.css);
+
