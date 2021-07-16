@@ -1,7 +1,8 @@
-.header__content{
+.contact__icons{
+  max-width: 518px;
+  margin: 100px auto;
   display: flex;
   justify-content: space-between;
-  background-color:#081E41;
   align-items: center;
-  max-height: 595px;
+  
 }

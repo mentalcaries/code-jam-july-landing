@@ -1,0 +1,23 @@
+.contact__button {
+  min-width: 321px;
+  min-height: 64px;
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+  background-color: #3E96F7;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: linear 0.25s;
+}
+
+.contact__button:hover{
+  color: #081E41;
+  background-color: #B6F7AB ;
+}
