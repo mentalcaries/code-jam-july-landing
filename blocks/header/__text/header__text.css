@@ -1,11 +1,12 @@
 .header__text{
   max-width: 555px;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .header__text {
     max-width: 800px;
     text-align: center;
+    margin: 0 auto;
   }
-} */
+}
