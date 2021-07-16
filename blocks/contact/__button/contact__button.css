@@ -15,6 +15,7 @@
   margin: 0 auto;
   cursor: pointer;
   transition: linear 0.25s;
+  border: none;
 }
 
 .contact__button:hover{
