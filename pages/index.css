@@ -5,6 +5,7 @@
 
 /* Header */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__text/header__text.css);
@@ -21,11 +22,13 @@
 
 /* Facts */
 @import url(../blocks/facts/facts.css);
+@import url(../blocks/facts/__wrapper/facts__wrapper.css);
 @import url(../blocks/facts/__content/facts__content.css);
 @import url(../blocks/facts/__title/facts__title.css);
 
 /* Work */
 @import url(../blocks/work/work.css);
+@import url(../blocks/work/__wrapper/work__wrapper.css);
 @import url(../blocks/work/__title/work__title.css);
 
 /* App Card */
@@ -40,6 +43,7 @@
 
 /* Experience */
 @import url(../blocks/resume/resume.css);
+@import url(../blocks/resume/__wrapper/resume__wrapper.css);
 @import url(../blocks/resume/__title/resume__title.css);
 @import url(../blocks/resume/__image/resume__image.css);
 @import url(../blocks/resume/__items/resume__items.css);
@@ -52,6 +56,7 @@
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contact/__title/contact__title.css);
 @import url(../blocks/contact/__icons/contact__icons.css);
+@import url(../blocks/contact/__icon/contact__icon.css);
 @import url(../blocks/contact/__button/contact__button.css);
 @import url(../blocks/contact/__link/contact__link.css);
 
