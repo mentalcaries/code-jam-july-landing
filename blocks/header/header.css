@@ -1,6 +1,7 @@
 .header {
   margin: 0 auto;
   background-color: #081E41;
-  
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
