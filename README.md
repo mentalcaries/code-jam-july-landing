@@ -10,7 +10,7 @@ Figma design by Maria Wright
 
 ### 👀 [View Live Site here](https://mentalcaries.github.io/code-jam-july-landing/index.html) 
 
-### 🖥 Tech Stack: MERN
+### 🖥 Tech Stack:
 - HTML
 - CSS - Styling
 - Flickity library for Carousel
